@@ -11,7 +11,7 @@
   <ItemGroup>
     <PackageReference Include="Consul" Version="1.7.14.7" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.2" />
-    <PackageReference Include="Nur.Store2025.Observability" Version="1.0.0" Condition="!Exists('$(MSBuildThisFileDirectory)..\..\..\SharedKernel\Nur.Store2026.Observability\src\Nur.Store2026.Observability\Nur.Store2026.Observability.csproj')" />
+    <PackageReference Include="Nur.Store2026.Observability" Version="1.0.0" Condition="!Exists('$(MSBuildThisFileDirectory)..\..\..\SharedKernel\Nur.Store2026.Observability\src\Nur.Store2026.Observability\Nur.Store2026.Observability.csproj')" />
     <ProjectReference Include="$(MSBuildThisFileDirectory)..\..\..\SharedKernel\Nur.Store2026.Observability\src\Nur.Store2026.Observability\Nur.Store2026.Observability.csproj" Condition="Exists('$(MSBuildThisFileDirectory)..\..\..\SharedKernel\Nur.Store2026.Observability\src\Nur.Store2026.Observability\Nur.Store2026.Observability.csproj')" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.2" />
 
@@ -21,10 +21,10 @@
     <PackageReference Include="AspNetCore.HealthChecks.UI.InMemory.Storage" Version="9.0.0" />
     <PackageReference Include="Yarp.ReverseProxy" Version="2.3.0" />
     
-    <PackageReference Include="Nur.Store2025.Access" Version="1.0.0" Condition="!Exists('$(MSBuildThisFileDirectory)..\..\..\SharedKernel\Nur.Store2026.Access\src\Nur.Store2026.Access\Nur.Store2026.Access.csproj')" />
+    <PackageReference Include="Nur.Store2026.Access" Version="1.0.0" Condition="!Exists('$(MSBuildThisFileDirectory)..\..\..\SharedKernel\Nur.Store2026.Access\src\Nur.Store2026.Access\Nur.Store2026.Access.csproj')" />
     <ProjectReference Include="$(MSBuildThisFileDirectory)..\..\..\SharedKernel\Nur.Store2026.Access\src\Nur.Store2026.Access\Nur.Store2026.Access.csproj" Condition="Exists('$(MSBuildThisFileDirectory)..\..\..\SharedKernel\Nur.Store2026.Access\src\Nur.Store2026.Access\Nur.Store2026.Access.csproj')" />
 
-    <PackageReference Include="Nur.Store2025.Security" Version="1.0.0" Condition="!Exists('$(MSBuildThisFileDirectory)..\..\..\SharedKernel\Nur.Store2026.Security\src\Nur.Store2026.Security\Nur.Store2026.Security.csproj')" />
+    <PackageReference Include="Nur.Store2026.Security" Version="1.0.0" Condition="!Exists('$(MSBuildThisFileDirectory)..\..\..\SharedKernel\Nur.Store2026.Security\src\Nur.Store2026.Security\Nur.Store2026.Security.csproj')" />
     <ProjectReference Include="$(MSBuildThisFileDirectory)..\..\..\SharedKernel\Nur.Store2026.Security\src\Nur.Store2026.Security\Nur.Store2026.Security.csproj" Condition="Exists('$(MSBuildThisFileDirectory)..\..\..\SharedKernel\Nur.Store2026.Security\src\Nur.Store2026.Security\Nur.Store2026.Security.csproj')" />
     <PackageReference Include="Joseco.Secrets.HashicorpVault" Version="1.0.0" Condition="!Exists('$(MSBuildThisFileDirectory)..\..\..\Utils\Joseco.Secrets\src\Joseco.Secrets.HashicorpVault\Joseco.Secrets.HashicorpVault.csproj')" />
     <ProjectReference Include="$(MSBuildThisFileDirectory)..\..\..\Utils\Joseco.Secrets\src\Joseco.Secrets.HashicorpVault\Joseco.Secrets.HashicorpVault.csproj" Condition="Exists('$(MSBuildThisFileDirectory)..\..\..\Utils\Joseco.Secrets\src\Joseco.Secrets.HashicorpVault\Joseco.Secrets.HashicorpVault.csproj')" />
